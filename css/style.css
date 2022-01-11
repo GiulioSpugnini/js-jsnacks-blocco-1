@@ -1,0 +1,56 @@
+#snack {
+    background-color: dodgerblue;
+    margin: 0 auto;
+    height: 300px;
+    width: 1000px;
+    margin-top: 300px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.max {
+    animation: rainbow 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    8% {
+        color: rgb(255, 127, 0);
+    }
+    16% {
+        color: rgb(255, 255, 0);
+    }
+    25% {
+        color: rgb(127, 255, 0);
+    }
+    33% {
+        color: rgb(0, 255, 0);
+    }
+    41% {
+        color: rgb(0, 255, 127);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+        transform: scale(0.9);
+    }
+    58% {
+        color: rgb(0, 127, 255);
+    }
+    66% {
+        color: rgb(0, 0, 255);
+    }
+    75% {
+        color: rgb(127, 0, 255);
+    }
+    83% {
+        color: rgb(255, 0, 255);
+    }
+    91% {
+        color: rgb(255, 0, 127);
+    }
+}
